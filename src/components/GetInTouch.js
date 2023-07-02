@@ -91,7 +91,11 @@ const GetInTouch = () => {
               <div className='social'>
                 <ul className='list-inline social social-intro center-align p-none'>
                   <li className='facebook'>
-                    <a href='http://facebook.com/kilanyworld' target='_blank'>
+                    <a
+                      href='http://facebook.com/kilanyworld'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fa fa-facebook' />
                     </a>
                   </li>
@@ -104,6 +108,7 @@ const GetInTouch = () => {
                     <a
                       href='https://www.instagram.com/kilanyworld/'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <i className='fa fa-instagram' />
                     </a>
@@ -112,6 +117,7 @@ const GetInTouch = () => {
                     <a
                       href='https://www.linkedin.com/in/kilany1982/'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <i className='fa fa-linkedin' />
                     </a>
