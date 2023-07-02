@@ -25,20 +25,20 @@ const Index = () => {
   }, []);
   return (
     <Layout>
-      <div className="main-picture men hide-on-med-and-down"></div>
+      <div className='main-picture men hide-on-med-and-down'></div>
       <div
-        id="bl-main"
+        id='bl-main'
         className={`bl-main ${nav !== null ? "bl-expand-item" : ""}`}
       >
         {/* Top Left Section Starts */}
-        <section className="topleft">
-          <div className="bl-box row valign-wrapper">
-            <div className="row valign-wrapper mb-0">
-              <div className="title-heading">
-                <div className="selector uppercase" id="selector">
-                  <h3 className="ah-headline p-none m-none clip is-full-width">
-                    <span className="font-weight-400">Hi There ! {`I'm`}</span>
-                    <span className="my-name">Mark Smith</span>
+        <section className='topleft'>
+          <div className='bl-box row valign-wrapper'>
+            <div className='row valign-wrapper mb-0'>
+              <div className='title-heading'>
+                <div className='selector uppercase' id='selector'>
+                  <h3 className='ah-headline p-none m-none clip is-full-width'>
+                    <span className='font-weight-400'>Hi There ! {`I'm`}</span>
+                    <span className='my-name'>Mohammed Kilany</span>
                     <TypingAnimation />
                   </h3>
                 </div>

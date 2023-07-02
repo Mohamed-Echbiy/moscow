@@ -7,7 +7,9 @@ const TypingAnimation = ({ data }) => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: data ? data : ["Web Designer", "Developer", "blogger"], // Strings to display
+      strings: data
+        ? data
+        : ["social entrepreneur", "CEO", "business leadership"], // Strings to display
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
@@ -23,10 +25,10 @@ const TypingAnimation = ({ data }) => {
   }, []);
   return (
     <span
-      className="ah-words-wrapper"
-      style={{ width: "206.288px", overflow: "hidden" }}
+      className='ah-words-wrapper'
+      style={{ width: "320.288px", overflow: "hidden" }}
     >
-      <b className="is-visible" ref={el}></b>
+      <b className='is-visible' ref={el}></b>
     </span>
   );
 };
