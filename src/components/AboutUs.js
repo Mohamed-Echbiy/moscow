@@ -3,6 +3,9 @@ import { Fragment, memo, useMemo, useState } from "react";
 import useWindowSize from "../useWindowSize";
 import SectionContainer from "./SectionContainer";
 
+const resumeDownload =
+  "https://doc-0g-3c-docstext.googleusercontent.com/export/hhg3d4r82c7inco0petrpken14/jbnt5272r5746bfekevnc9tck8/1688317490000/104882856472236798115/111332808816389709313/1IALXZFBO9ohG8RqTWMqSLvDNsge2AfBJB9KvwVV_0yE?format=docx&dat=ANh7AEyYuV5dqqQWLjju5ielTPN7mD3v3xonM_W8N3mNI4xIGhgUn1xaWaX7koq_qpoV8Jck0AQOpGYqQETgzFKU1BEGUkAGcsmCcnGbrl68RhpgeFDT3ypPDTp3VdC18Et0ugxJayjLbZU96P-HUm7LYdGX_nX-BURTvI6zWIDajuD7CYJFyuUnu12Xv4MazE98U-Bf130Ep-xsBmsEdt3GqjZLZDEXxYk16EFNH-dXJFwkNYChOKGiLYPcBJk15elRTc9ACWA2fhJWek6POZxbQ1g2_LWuqiFizexk2d76suZituIvzwiCu_pn89JakkTeOYV4mUBl2EYMFpVx1SfijSdtk2iogHR1lgrSzpD2GON_01-K1iAvjGM-L_Iyx3LNjcmK_qlWaEOI7bfWfHoSK1G2UzSMZl71rCkivDnnbyCS3OOoyeVUJyBiCwrboYFS2pvxrD7EXIbz9B49YIPElzGUBVgiTzUPBLPy-iVTJTGjhkyJEJ5EysXYxlBq4Uh8-xMVf1P_i8WJ1nl59FkRw6KE8qn2r3foFJgu5en5m5fqz-KhSN_b1Y7CyksAessgISPfHRycB_oAh6Fjw2KTPQUb6Oc72lyTZ786Y3CSYPythNgfropw2df9t3KP0XxKu_okw4XiAk1-fgsxW0yy--5jZ8jwJI7yl4ochCJpoSOu05dyn8-eRB_OYJHtl0kxhu7C-rtupsfuP4V4YCtr2zxQhnIC17KNDFTFcz6sJdIwqfF8npX4iDimRI3SopSK-TwipYZKaiuWvNwuQEFQ0_bkucrVN8-ln6UN1t1Rou2US0dfE3HF_ePdFdVUz6Euhw9bM0eANUedXGrFuwoF1o2AmAI3d7Eyctn0peQCTZe97JMNylSuvPe6I6oMqnDgw_WHzaQUc-4ujmZg3mg5dawl49W8cgj17y_juOy1YIy4CNK27ZyGHS20";
+
 const Experience = () => (
   <Fragment>
     <div className='resume-card-header'>
@@ -366,7 +369,7 @@ const AboutUs = ({ dark }) => {
                   </li>
                 </ul>
               </div>
-              <a href='#' className='btn font-weight-700'>
+              <a href={resumeDownload} className='btn font-weight-700'>
                 Download Resume <i className='fa fa-file-pdf-o' />
               </a>
               <Link href={`/blog-${dark ? "dark" : "light"}`}>

@@ -25,7 +25,44 @@ const Index = () => {
   }, []);
   return (
     <Layout>
-      <div className='main-picture men hide-on-med-and-down'></div>
+      <div className='main-picture men hide-on-med-and-down'>
+        <div className='socialMedia'>
+          <ul className='list-inline social social-intro center-align p-none'>
+            <li className='facebook'>
+              <a
+                href='http://facebook.com/kilanyworld'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <i className='fa fa-facebook' />
+              </a>
+            </li>
+            <li className='twitter'>
+              <a href='#'>
+                <i className='fa fa-twitter' />
+              </a>
+            </li>
+            <li className='google-plus instagram'>
+              <a
+                href='https://www.instagram.com/kilanyworld/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <i className='fa fa-instagram' />
+              </a>
+            </li>
+            <li className='linkedin'>
+              <a
+                href='https://www.linkedin.com/in/kilany1982/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <i className='fa fa-linkedin' />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div
         id='bl-main'
         className={`bl-main ${nav !== null ? "bl-expand-item" : ""}`}

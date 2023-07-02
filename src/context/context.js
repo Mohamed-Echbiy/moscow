@@ -39,7 +39,7 @@ const reducer = (state, action) => {
 const State = (props) => {
   const initialState = {
     nav: null,
-    color: "goldrenrod",
+    color: "red",
     showProject: false,
     activeProject: null,
   };
