@@ -313,15 +313,84 @@ const AboutUs = ({ dark }) => {
               <h6 className='uppercase'>
                 <i className='fa fa-user' /> Personal Info
               </h6>
-              <div className='col m12 l12 xl9 p-none'>
-                <p className='second-font'>
-                  {`I'm`} a Freelance Web Designer &amp; Developer based in
-                  Moscow, Russia, I have serious passion for UI effects,
-                  animations and creating intuitive, with over a decade of
-                  experience.
+              <div
+                className='col m12 l12 xl9 p-none'
+                style={{ marginBottom: "38px", width: "100%" }}
+              >
+                <p style={{ marginBottom: "16px" }} className='second-font'>
+                  <span
+                    style={{
+                      textTransform: "capitalize",
+                      fontSize: "24px",
+                      fontWeight: "700",
+                      display: "inline-block",
+                      marginRight: "6px",
+                    }}
+                    className='my-name-is'
+                  >
+                    {" "}
+                    <span style={{ fontSize: "32px" }}>M</span>ohammed Kilany
+                  </span>
+                  {"   "}
+                  is an award-winning social entrepreneur with entrepreneurship
+                  in his blood and DNA. He has founded six companies, with two
+                  successful exits, and has been recognized as one of the best
+                  22 social innovators in MENA by Synergos. He holds an MBA from
+                  Kellogg School of Management and is an Ashoka fellow.
+                </p>
+                {/* <hr /> */}
+                <p
+                  style={{ marginBottom: "16px", marginLeft: "6px" }}
+                  className='second-font'
+                >
+                  Kilany is the CEO of Fanera, the first social network for and
+                  by football fans, with over 500K active users. The platform
+                  was piloted in partnership with the host of the 2022 World
+                  Cup, and Kilany's leadership has helped the company grow
+                  rapidly.
+                </p>
+                {/* <hr /> */}
+                <p
+                  style={{ marginBottom: "16px", marginLeft: "6px" }}
+                  className='second-font'
+                >
+                  In addition to Fanera, Kilany co-founded Souktel, a company
+                  that connects job seekers and employers with jobs, and Sabbar,
+                  a crowdfunding platform that helps disadvantaged people get
+                  their projects funded through storytelling videos.
+                </p>
+                {/* <hr /> */}
+                <p
+                  style={{ marginBottom: "16px", marginLeft: "6px" }}
+                  className='second-font'
+                >
+                  Kilany is also an active mentor and supporter of the
+                  entrepreneurship community in MENA, having mentored over 100+
+                  startups through programs such as Founder Institute, Hult
+                  Prize, Startup Weekends, and Techween. He has judged 10+
+                  competitions and published a series of startup videos on his
+                  Facebook page, where he has over 90K followers. Kilany also
+                  gave an inspirational TEDx speech entitled “Creativity loves
+                  Constraints.”
+                </p>
+                {/* <hr /> */}
+                <p
+                  style={{ marginBottom: "16px", marginLeft: "6px" }}
+                  className='second-font'
+                >
+                  Recently, Kilany was honored as one of Business Elite's "40
+                  Under 40" in 2023, a prestigious award program that recognizes
+                  outstanding young executives and entrepreneurs worldwide,
+                  creating networking opportunities for up-and-coming leaders.
+                </p>
+                {/* <hr /> */}
+                <p className='second-font' style={{ marginLeft: "6px" }}>
+                  Connect with Mohammed Kilany to explore collaboration
+                  opportunities and tap into his expertise in entrepreneurship,
+                  business leadership, and driving impactful social change.
                 </p>
               </div>
-              <div className='col s12 m12 l6 p-none'>
+              {/* <div className='col s12 m12 l6 p-none'>
                 <ul className='second-font list-1'>
                   <li>
                     <span className='font-weight-700'>First Name: </span>
@@ -368,7 +437,7 @@ const AboutUs = ({ dark }) => {
                     mark.smith
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <a href={resumeDownload} className='btn font-weight-700'>
                 Download Resume <i className='fa fa-file-pdf-o' />
               </a>
