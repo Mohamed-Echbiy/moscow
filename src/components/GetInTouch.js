@@ -43,71 +43,77 @@ const GetInTouch = () => {
   };
   return (
     <SectionContainer
-      sectionName="Contact"
+      sectionName='Contact'
       title={{ first: "get", last: "in touch" }}
     >
-      <div className="bl-content">
+      <div className='bl-content'>
         {/* Main Heading Starts */}
-        <div className="container page-title center-align">
-          <h2 className="center-align">
-            <span data-hover="get">get </span>
+        <div className='container page-title center-align'>
+          <h2 className='center-align'>
+            <span data-hover='get'>get </span>
             {""}
-            <span data-hover="in touch">in touch</span>
+            <span data-hover='in touch'>in touch</span>
           </h2>
         </div>
         {/* Main Heading Ends */}
-        <div className="container">
+        <div className='container'>
           {/* Divider Starts */}
-          <div className="divider center-align">
-            <span className="outer-line" />
-            <span className="fa fa-envelope-open" aria-hidden="true" />
-            <span className="outer-line" />
+          <div className='divider center-align'>
+            <span className='outer-line' />
+            <span className='fa fa-envelope-open' aria-hidden='true' />
+            <span className='outer-line' />
           </div>
           {/* Divider Ends */}
-          <div className="row contact section-padding">
+          <div className='row contact section-padding'>
             {/* Contact Infos Starts */}
-            <div className="col s12 m5 l5 xl4 leftside">
+            <div className='col s12 m5 l5 xl4 leftside'>
               {/* Contacts Starts */}
-              <h6 className="font-weight-700 uppercase">Phone</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-phone" /> +34 62 11 84 01
+              <h6 className='font-weight-700 uppercase'>Phone</h6>
+              <span className='font-weight-400 second-font'>
+                <i className='fa fa-phone' /> +34 62 11 84 01
               </span>
-              <h6 className="font-weight-700 uppercase">Email</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-envelope" /> you@youwebsite.com
+              <h6 className='font-weight-700 uppercase'>Email</h6>
+              <span className='font-weight-400 second-font'>
+                <i className='fa fa-envelope' /> you@youwebsite.com
               </span>
-              <h6 className="font-weight-700 uppercase">Skype</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-skype" /> mark.smith
+              <h6 className='font-weight-700 uppercase'>Skype</h6>
+              <span className='font-weight-400 second-font'>
+                <i className='fa fa-skype' /> mark.smith
               </span>
-              <h6 className="font-weight-700 uppercase">Address</h6>
-              <span className="font-weight-400 second-font">
-                <i className="fa fa-home" /> Moscow, Russia
+              <h6 className='font-weight-700 uppercase'>Address</h6>
+              <span className='font-weight-400 second-font'>
+                <i className='fa fa-home' /> Moscow, Russia
               </span>
               <br />
               {/* Contacts Ends */}
               {/* Social Media Profiles Starts */}
-              <h6 className="font-weight-700 uppercase">Social Profiles</h6>
-              <div className="social">
-                <ul className="list-inline social social-intro center-align p-none">
-                  <li className="facebook">
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+              <h6 className='font-weight-700 uppercase'>Social Profiles</h6>
+              <div className='social'>
+                <ul className='list-inline social social-intro center-align p-none'>
+                  <li className='facebook'>
+                    <a href='http://facebook.com/kilanyworld' target='_blank'>
+                      <i className='fa fa-facebook' />
                     </a>
                   </li>
-                  <li className="twitter">
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                  <li className='twitter'>
+                    <a href='#'>
+                      <i className='fa fa-twitter' />
                     </a>
                   </li>
-                  <li className="google-plus">
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                  <li className='google-plus'>
+                    <a
+                      href='https://www.instagram.com/kilanyworld/'
+                      target='_blank'
+                    >
+                      <i className='fa fa-instagram' />
                     </a>
                   </li>
-                  <li className="linkedin">
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
+                  <li className='linkedin'>
+                    <a
+                      href='https://www.linkedin.com/in/kilany1982/'
+                      target='_blank'
+                    >
+                      <i className='fa fa-linkedin' />
                     </a>
                   </li>
                 </ul>
@@ -116,76 +122,76 @@ const GetInTouch = () => {
             </div>
             {/* Contact Infos Ends */}
             {/* Contact Form Starts */}
-            <div className="col s12 m7 l7 xl8 rightside">
-              <h6 className="uppercase m-none font-weight-700">
+            <div className='col s12 m7 l7 xl8 rightside'>
+              <h6 className='uppercase m-none font-weight-700'>
                 Feel free to drop me a line
               </h6>
-              <div className="row">
-                <p className="col s12 m12 l12 xl10 second-font">
+              <div className='row'>
+                <p className='col s12 m12 l12 xl10 second-font'>
                   If you have any suggestion, project or even you want to say
                   Hello.. please fill out the form below and I will reply you
                   shortly.
                 </p>
               </div>
-              <form className="contactform" onSubmit={(e) => onSubmit(e)}>
+              <form className='contactform' onSubmit={(e) => onSubmit(e)}>
                 {/* Name Field Starts */}
-                <div className="input-field second-font">
-                  <i className="fa fa-user prefix" />
+                <div className='input-field second-font'>
+                  <i className='fa fa-user prefix' />
                   <input
-                    id="name"
-                    name="name"
+                    id='name'
+                    name='name'
                     onChange={(e) => onChange(e)}
                     value={name}
-                    type="text"
-                    className="validate"
+                    type='text'
+                    className='validate'
                   />
-                  <label className="font-weight-400" htmlFor="name">
+                  <label className='font-weight-400' htmlFor='name'>
                     Your Name
                   </label>
                 </div>
                 {/* Name Field Ends */}
                 {/* Email Field Starts */}
-                <div className="input-field second-font">
-                  <i className="fa fa-envelope prefix" />
+                <div className='input-field second-font'>
+                  <i className='fa fa-envelope prefix' />
                   <input
-                    id="email"
-                    type="email"
-                    name="email"
+                    id='email'
+                    type='email'
+                    name='email'
                     onChange={(e) => onChange(e)}
                     value={email}
-                    className="validate"
-                    required=""
+                    className='validate'
+                    required=''
                   />
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor='email'>Your Email</label>
                 </div>
                 {/* Email Field Ends */}
                 {/* Comment Textarea Starts */}
-                <div className="input-field second-font">
-                  <i className="fa fa-comments prefix" />
+                <div className='input-field second-font'>
+                  <i className='fa fa-comments prefix' />
                   <textarea
-                    id="comment"
-                    name="message"
+                    id='comment'
+                    name='message'
                     onChange={(e) => onChange(e)}
                     value={message}
-                    className="materialize-textarea"
-                    required=""
+                    className='materialize-textarea'
+                    required=''
                     defaultValue={""}
                   />
-                  <label htmlFor="comment">Your Comment</label>
+                  <label htmlFor='comment'>Your Comment</label>
                 </div>
                 {/* Comment Textarea Ends */}
                 {/* Submit Form Button Starts */}
-                <div className="col s12 m12 l9 xl8 submit-form">
+                <div className='col s12 m12 l9 xl8 submit-form'>
                   <button
-                    className="btn font-weight-700"
-                    type="submit"
-                    name="send"
+                    className='btn font-weight-700'
+                    type='submit'
+                    name='send'
                   >
-                    Send Message <i className="fa fa-send" />
+                    Send Message <i className='fa fa-send' />
                   </button>
                 </div>
                 {/* Submit Form Button Ends */}
-                <div className="col s12 m12 l8 xl8 form-message">
+                <div className='col s12 m12 l8 xl8 form-message'>
                   <div
                     className={error ? "red-text" : "green-text"}
                     style={{ opacity: error == null ? "0" : "1" }}
