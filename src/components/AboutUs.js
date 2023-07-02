@@ -334,7 +334,7 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className='font-weight-700'>Nationality: </span>
-                    location
+                    Russian
                   </li>
                   <li>
                     <span className='font-weight-700'>Freelance: </span>
@@ -358,7 +358,7 @@ const AboutUs = ({ dark }) => {
                   </li>
                   <li>
                     <span className='font-weight-700'>Spoken Langages: </span>
-                    French - German
+                    Arabic - English
                   </li>
                   <li>
                     <span className='font-weight-700'>Skype: </span>
@@ -508,37 +508,37 @@ const AboutUs = ({ dark }) => {
         </div>
         {/* Resume Ends */}
         {/* Fun Facts Starts */}
-        <div className='container badges'>
-          <div className='row'>
-            {/* Fact Badge Item Starts */}
-            <div className='col s12 m4 l4 center-align'>
+        {/* <div className='container badges'> */}
+        {/* <div className='row'> */}
+        {/* Fact Badge Item Starts */}
+        {/* <div className='col s12 m4 l4 center-align'>
               <h3>
                 <i className='fa fa-briefcase' />
                 <span className='font-weight-900'>4+</span>
               </h3>
               <h6 className='uppercase font-weight-700'>Years Experience</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className='col s12 m4 l4 center-align'>
+            </div> */}
+        {/* Fact Badge Item Ends */}
+        {/* Fact Badge Item Starts */}
+        {/* <div className='col s12 m4 l4 center-align'>
               <h3>
                 <i className='fa fa-handshake-o' />
                 <span className='font-weight-900'>89+</span>
               </h3>
               <h6 className='uppercase font-weight-700'>Done Projects</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-            {/* Fact Badge Item Starts */}
-            <div className='col s12 m4 l4 center-align'>
+            </div> */}
+        {/* Fact Badge Item Ends */}
+        {/* Fact Badge Item Starts */}
+        {/* <div className='col s12 m4 l4 center-align'>
               <h3>
                 <i className='fa fa-heart-o' />
                 <span className='font-weight-900'>77+</span>
               </h3>
               <h6 className='uppercase font-weight-700'>Happy customers</h6>
-            </div>
-            {/* Fact Badge Item Ends */}
-          </div>
-        </div>
+            </div> */}
+        {/* Fact Badge Item Ends */}
+        {/* </div> */}
+        {/* </div> */}
         {/* Fun Facts Ends */}
       </div>
     </SectionContainer>
