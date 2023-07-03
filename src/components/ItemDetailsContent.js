@@ -13,19 +13,19 @@ export const LocalVideo = ({ playing }) => {
   return (
     <video
       ref={vidRef}
-      src="images/projects/video/video.mp4"
-      id="video"
-      className="responsive-video"
-      controls="controls"
+      src='images/projects/video/video.mp4'
+      id='video'
+      className='responsive-video'
+      controls='controls'
       autoPlay
-      poster="images/projects/video/video-poster.png"
+      poster='images/projects/video/video-poster.png'
     />
   );
 };
 
 const ProjectSlider = () => {
   useEffect(() => {
-    M.AutoInit();
+    // M.AutoInit();
   }, []);
 
   return (
@@ -34,37 +34,13 @@ const ProjectSlider = () => {
         fullWidth: true,
         indicators: true,
       }}
-      className="carousel carousel-slider"
-    >
-      <a className="carousel-item" href="#one!">
-        <img
-          className="responsive-img"
-          src="images/projects/project-2.jpg"
-          alt="project"
-        />
-      </a>
-      <a className="carousel-item" href="#two!">
-        <img
-          className="responsive-img"
-          src="images/projects/project-1.jpg"
-          alt="project"
-        />
-      </a>
-      <a className="carousel-item" href="#three!">
-        <img
-          className="responsive-img"
-          src="images/projects/project-3.jpg"
-          alt="project"
-        />
-      </a>
-      <a className="carousel-item" href="#four!">
-        <img
-          className="responsive-img"
-          src="images/projects/project-4.jpg"
-          alt="project"
-        />
-      </a>
-    </Carousel>
+      images={[
+        "/images/projects/P_1_1.JPG",
+        "/images/projects/P_1_2.JPG",
+        "/images/projects/P_1_3.JPG",
+      ]}
+      className='carousel carousel-slider'
+    />
   );
 };
 export default memo(ProjectSlider);
