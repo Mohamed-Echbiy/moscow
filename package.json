@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
@@ -18,8 +17,5 @@
     "react-materialize": "^3.10.0",
     "typed.js": "^2.0.12"
   },
-  "devDependencies": {
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
-  }
+  "devDependencies": {}
 }
