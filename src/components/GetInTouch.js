@@ -76,13 +76,13 @@ const GetInTouch = () => {
               <span className='font-weight-400 second-font'>
                 <i className='fa fa-envelope' /> you@youwebsite.com
               </span>
-              <h6 className='font-weight-700 uppercase'>Skype</h6>
+              <h6 className='font-weight-700 uppercase'>Whatsapp</h6>
               <span className='font-weight-400 second-font'>
-                <i className='fa fa-skype' /> mark.smith
+                <i className='fa fa-whatsapp' /> mark.smith
               </span>
               <h6 className='font-weight-700 uppercase'>Address</h6>
               <span className='font-weight-400 second-font'>
-                <i className='fa fa-home' /> Moscow, Russia
+                <i className='fa fa-home' /> UAE
               </span>
               <br />
               {/* Contacts Ends */}

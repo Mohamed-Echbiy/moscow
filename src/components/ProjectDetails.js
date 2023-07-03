@@ -123,7 +123,7 @@ const ProjectDetails = () => {
               <li>
                 <i className='fa fa-cogs' />{" "}
                 <span className='font-weight-700'>Description</span> :{" "}
-                <span className='font-weight-400 ' style={{ fontSize: "16px" }}>
+                <span className='font-weight-400 '>
                   Honored as one of the top 40 business leaders under the age of
                   40 in the MENA region by Business Elite Awards, a
                   distinguished program that recognizes and connects the most

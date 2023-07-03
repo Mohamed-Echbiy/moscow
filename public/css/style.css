@@ -74,16 +74,23 @@ body {
 }
 .second-font {
   font-family: "Rubik", sans-serif;
-  font-size: 18px !important;
-  padding-right: 70px;
+  font-size: 15px !important;
+  /* padding-right: 70px; */
 
   color: #e6e6e6ea;
 }
 @media screen and (max-width: 620px) {
   .second-font {
     font-family: "Kanit", sans-serif;
-    font-size: 15px;
-    padding-right: 5px;
+    font-size: 14px !important;
+    /* padding-right: 5px; */
+  }
+}
+@media screen and (min-width: 621px) and (max-width: 1580px) {
+  .second-font {
+    font-family: "Kanit", sans-serif;
+    font-size: 13px !important;
+    /* padding-right: 5px; */
   }
 }
 
@@ -1215,7 +1222,12 @@ div.bl-panel-items > div > div h3 {
   font-size: 30px;
   margin: 0 0 30px 0;
 }
-
+@media screen and (max-width: 920px) {
+  div.bl-panel-items > div > div h3 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+  }
+}
 div.bl-panel-items > div > div ul.project-details li {
   padding-bottom: 12px;
 }
@@ -2498,7 +2510,7 @@ body.blog .pagination li a i {
     padding: 15px;
   }
 }
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 720px) {
   div.bl-panel-items > div > div.row {
     display: block;
     width: 100%;

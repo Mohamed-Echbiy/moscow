@@ -35,9 +35,9 @@ const ProjectSlider = () => {
         indicators: true,
       }}
       images={[
+        "/images/projects/P_1_3.JPG",
         "/images/projects/P_1_1.JPG",
         "/images/projects/P_1_2.JPG",
-        "/images/projects/P_1_3.JPG",
       ]}
       className='carousel carousel-slider'
     />
