@@ -39,6 +39,7 @@ const Portfolio = () => {
             {/* Project Starts */}
             {projectData.map((project, index) => (
               <div
+                key={index + "uui"}
                 className='col s12 m6 l6 xl4'
                 data-panel={`panel-${index + 1}`}
               >

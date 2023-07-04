@@ -17,7 +17,6 @@ export const LocalVideo = ({ playing, src }) => {
       id='video'
       className='responsive-video'
       style={{ aspectRatio: "16/9", width: "100%" }}
-      controls='controls'
       autoPlay
     />
   );

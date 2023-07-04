@@ -27,6 +27,7 @@ const ProjectDetails = () => {
     >
       {projectsData.map((project, index) => (
         <div
+          key={index}
           data-panel={`panel-${index + 1}`}
           className={activeProject == index + 1 ? "bl-show-work" : ""}
         >
