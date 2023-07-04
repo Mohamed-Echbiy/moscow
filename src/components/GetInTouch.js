@@ -70,15 +70,23 @@ const GetInTouch = () => {
               {/* Contacts Starts */}
               <h6 className='font-weight-700 uppercase'>Phone</h6>
               <span className='font-weight-400 second-font'>
-                <i className='fa fa-phone' /> +34 62 11 84 01
+                <i className='fa fa-phone' /> +970599679886
               </span>
               <h6 className='font-weight-700 uppercase'>Email</h6>
               <span className='font-weight-400 second-font'>
-                <i className='fa fa-envelope' /> you@youwebsite.com
+                <i className='fa fa-envelope' /> kilanyworld@gmail.com
               </span>
               <h6 className='font-weight-700 uppercase'>Whatsapp</h6>
               <span className='font-weight-400 second-font'>
-                <i className='fa fa-whatsapp' /> mark.smith
+                <i className='fa fa-whatsapp' />{" "}
+                <a
+                  href='https://wa.me/00970599679886'
+                  target='_blank'
+                  rel='noreferrer'
+                  style={{ textTransform: "underline", color: "#e6e6e6ea" }}
+                >
+                  Whatsapp
+                </a>
               </span>
               <h6 className='font-weight-700 uppercase'>Address</h6>
               <span className='font-weight-400 second-font'>
@@ -100,7 +108,11 @@ const GetInTouch = () => {
                     </a>
                   </li>
                   <li className='twitter'>
-                    <a href='#'>
+                    <a
+                      href='https://twitter.com/_Kilany'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fa fa-twitter' />
                     </a>
                   </li>

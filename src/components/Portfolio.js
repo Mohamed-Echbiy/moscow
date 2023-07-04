@@ -51,9 +51,7 @@ const Portfolio = () => {
                   <img
                     className='responsive-img'
                     src={
-                      project?.images
-                        ? project.images[0]
-                        : project.coverPhoto
+                      project.coverPhoto
                         ? project.coverPhoto
                         : "images/projects/project-1.jpg"
                     }

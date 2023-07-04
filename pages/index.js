@@ -38,7 +38,11 @@ const Index = () => {
               </a>
             </li>
             <li className='twitter'>
-              <a href='#'>
+              <a
+                href='https://twitter.com/_Kilany'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <i className='fa fa-twitter' />
               </a>
             </li>
