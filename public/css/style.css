@@ -467,7 +467,17 @@ body.dark .videocontainer,
 body.dark .responsive-video {
   border: 1px solid #333;
 }
-
+.carousel.carousel-slider {
+  height: auto !important;
+  aspect-ratio: 16/13 !important;
+}
+.carousel.carousel-slider .carousel-item {
+  aspect-ratio: 16/13;
+}
+.carousel.carousel-slider .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
 /* Big Titles
 ================================================== */
 
@@ -2527,4 +2537,15 @@ body.blog .pagination li a i {
     margin-left: 0px !important;
     width: 100% !important;
   }
+}
+.row .col.xl4.s12.xl4 {
+  aspect-ratio: 16/13;
+}
+.row .col.xl4.s12.xl4.leftside {
+  height: 100%;
+  aspect-ratio: initial;
+}
+.row .col.xl4 img {
+  width: 100%;
+  height: 100%;
 }

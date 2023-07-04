@@ -2,28 +2,28 @@ import M from "materialize-css";
 import { memo, useEffect, useRef } from "react";
 import { Carousel } from "react-materialize";
 
-export const LocalVideo = ({ playing }) => {
+export const LocalVideo = ({ playing, src }) => {
   const vidRef = useRef(null);
-  useEffect(() => {
-    if (playing !== 4) {
-      vidRef.current.pause();
-    }
-  }, [playing]);
+  // useEffect(() => {
+  //   if (playing !== 4) {
+  //     vidRef.current.pause();
+  //   }
+  // }, [playing]);
 
   return (
-    <video
+    <iframe
       ref={vidRef}
-      src='images/projects/video/video.mp4'
+      src={src}
       id='video'
       className='responsive-video'
+      style={{ aspectRatio: "16/9", width: "100%" }}
       controls='controls'
       autoPlay
-      poster='images/projects/video/video-poster.png'
     />
   );
 };
 
-const ProjectSlider = () => {
+const ProjectSlider = ({ images }) => {
   useEffect(() => {
     // M.AutoInit();
   }, []);
@@ -34,13 +34,20 @@ const ProjectSlider = () => {
         fullWidth: true,
         indicators: true,
       }}
-      images={[
-        "/images/projects/P_1_3.JPG",
-        "/images/projects/P_1_1.JPG",
-        "/images/projects/P_1_2.JPG",
-      ]}
+      images={[...images]}
       className='carousel carousel-slider'
     />
   );
 };
 export default memo(ProjectSlider);
+{
+  /* <iframe
+  width='1280'
+  height='720'
+  src='https://www.youtube.com/embed/wSGBW1UBBKM'
+  title='Fanera won first place in PitchForce weekly event for A round startups'
+  frameborder='0'
+  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+  allowfullscreen
+></iframe>; */
+}

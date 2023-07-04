@@ -1,74 +1,79 @@
 [
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
+    "description": "Honored as one of the top 40 business leaders under the age of 40 in the MENA region by Business Elite Awards, a distinguished program that recognizes and connects the most successful and ambitious entrepreneurs worldwide. This prestigious accolade celebrates the remarkable achievements and entrepreneurial spirit of young leaders, showcasing their significant contributions to the business landscape",
+    "orginization": "Business elite award",
+    "images": [
+      "images/projects/P_1_3.JPG",
+      "images/projects/P_1_1.JPG",
+      "images/projects/P_1_2.JPG"
+    ],
+    "title": "40 Under 40 Award",
+    "Date": "2023",
     "link": "",
-    "titleLink": ""
+    "titleLink": "https://businesseliteawards.com/40-under-40/"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "Celebrating the exceptional presentation skills of Mohammed Kilany, winner of the Best Pitch Sigma Award in Dubai. With his captivating delivery and compelling storytelling, Kilany outshined countless pitchers to emerge as the standout presenter among a sea of talent. His pitch for Fanera, the innovative social network app for football fans, resonated with the audience and demonstrated his expertise in capturing attention and conveying a compelling business vision",
+    "orginization": "Sigma Summit",
+    "images": [
+      "images/projects/P_2_3.jpg",
+      "images/projects/P_2_1.jpg",
+      "images/projects/P_2_2.jpg"
+    ],
+    "title": "Best Pitch Sigma Award - Dubai",
+    "Date": "2022",
+    "link": "https://www.entrepreneur.com/en-ae/starting-a-business/startup-spotlight-uae-based-social-platform-fanera-is-all/432122",
+    "titleLink": "https://sigma.world/"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "Entrepreneur Magazine recognizes Mohamed Kilany, CEO of Fanera, for his passion and entrepreneurial spirit in transforming football fan engagement. The article highlights Fanera as a cutting-edge social platform designed 'for and by football fans,' connecting enthusiasts from around the world through an engaging and interactive experience. Kilany's leadership and dedication to bridging the gap between fans, amplifying their voices, and facilitating content creation have made Fanera a standout in the industry",
+    "orginization": "entrepreneur",
+    "images": ["images/projects/P_3_1.jfif"],
+    "title": "Featured in Entrepreneur",
+    "Date": "2022",
+    "link": "https://www.entrepreneur.com/en-ae/starting-a-business/startup-spotlight-uae-based-social-platform-fanera-is-all/432122",
+    "titleLink": "https://www.entrepreneur.com/"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "Fanera's CEO, Mohammed Kilany, triumphs at the highly competitive PitchForce event, leaving a lasting impression on top venture capitalists (VCs) and angel investors. Going head-to-head with leading-edge companies in the USA, Kilany delivered an exceptional pitch that garnered rave reviews and secured the coveted first place. Witness the power of Kilany's presentation as he showcased Fanera's groundbreaking approach to fan engagement and revolutionizing the football industry. This remarkable achievement highlights Kilany's expertise as a persuasive and captivating speaker",
+    "orginization": "PitchForce - USA",
+    "images": null,
+    "videoLink": "https://www.youtube.com/embed/wSGBW1UBBKM",
+    "title": "PitchForce Winner",
+    "Date": "2021",
+    "link": "https://www.youtube.com/watch?v=wSGBW1UBBKM",
+    "titleLink": "https://pitch-force.com/"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "Under the visionary leadership of CEO Mohammed Kilany, Fanera emerges victorious as the winner of the esteemed Challenge 22 innovation competition hosted by the Supreme Committee for Delivery & Legacy (SC), the organizing body of the 2022 FIFA World Cup Qatar™. This prestigious award recognizes Fanera's exceptional contributions in providing innovative solutions that directly support Qatar's hosting of the FIFA World Cup™. Out of over 1,400 applications from Qatar and the MENA region, Fanera's groundbreaking approach to fan engagement and its commitment to revolutionizing the football experience stood out among the competition",
+    "orginization": "Qatar 2022",
+    "images": [
+      "images/projects/P_4_1.jpg",
+      "images/projects/P_4_2.jpg",
+      "images/projects/P_4_3.jpg"
+    ],
+    "title": "Wins Challenge 22, Propelling Innovation in the FIFA World Cup",
+    "Date": "2020",
+    "link": "https://essenceofqatar.com/2021/04/25/challenge-22-startups-fanera/",
+    "titleLink": "#"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "Mohammed Al-Kilany, co-founder of Souktel, has been recognized as an Ashoka Fellow for his groundbreaking work in revolutionizing Middle Eastern job markets. With his social enterprise Souktel, Al-Kilany has harnessed the power of technology to connect marginalized job seekers with employment opportunities and training programs, breaking down barriers and creating a more inclusive labor market. As an Ashoka Fellow, Al-Kilany joins a prestigious global community of social entrepreneurs who have achieved systemic change in their regions. We congratulate Al-Kilany on this well-deserved recognition and celebrate his dedication to improving the lives of individuals and communities through innovative social entrepreneurship.",
+    "orginization": "Ashoka",
+    "images": ["images/projects/P_5_1.JPG"],
+    "title": "Recognized as Ashoka Fellow",
+    "Date": "2014",
+    "link": "https://www.ashoka.org/en-aaw/fellow/mohammed-al-kilan",
+    "titleLink": "https://www.ashoka.org/"
   },
   {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
-  },
-  {
-    "description": "",
-    "orginization": "",
-    "images": ["/images/projects/"],
-    "title": "",
-    "Date": "",
-    "link": "",
-    "titleLink": ""
+    "description": "has been recognized as a YouthActionNet Fellow, a prestigious accolade granted to inspiring young leaders worldwide. Selected among 20 exceptional individuals in 2009, Al-Kilany stood as the sole representative from the Middle East, highlighting his dedication to social change. YouthActionNet, a flagship program of the International Youth Foundation (IYF), aims to amplify the impact of youth-led social ventures globally. With a network of over 2,100 young social entrepreneurs in 92 countries, the program provides advanced leadership training, coaching, mentoring, advocacy, and networking opportunities. Al-Kilany's recognition as a YouthActionNet Fellow showcases his remarkable commitment to empowering young leaders and driving positive transformation through social entrepreneurship",
+    "orginization": "International Youth Foundation",
+    "images": null,
+    "videoLink": "https://www.youtube.com/embed/2x5wiEOjiZI",
+    "title": "YouthActionNet Fellow",
+    "Date": "2010",
+    "link": "https://www.youtube.com/watch?v=2x5wiEOjiZI",
+    "titleLink": "#"
   }
 ]
