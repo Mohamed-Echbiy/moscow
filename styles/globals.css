@@ -143,10 +143,12 @@ div.bl-panel-items > div {
   /* width: 800px; */
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
-
+#bl-work-items .col {
+  margin-left: 0 !important;
+}
 #bl-work-items .col a {
   background-color: #4472c4;
   position: relative;

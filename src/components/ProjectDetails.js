@@ -3,11 +3,11 @@ import { Context } from "../context/context";
 import { LocalVideo } from "./ItemDetailsContent";
 import projectsData from "../../projectsData/projects.json";
 import dynamic from "next/dynamic";
-
+import ListImages from "../../projectsData/collection.json";
 const ProjectSlider = dynamic(() => import("./ItemDetailsContent"), {
   ssr: false,
 });
-
+const images = ListImages.map((e) => e.i);
 const ProjectDetails = () => {
   const {
     activeProject,
@@ -34,7 +34,9 @@ const ProjectDetails = () => {
           <div className='row'>
             {/* Project Main Content Starts */}
             <div className='col s12 l6 xl6 section-padding section-padding-right-none'>
-              {project?.images ? (
+              {project.orginization === "life" ? (
+                <ProjectSlider images={images} />
+              ) : project?.images ? (
                 <ProjectSlider images={project?.images} />
               ) : (
                 <LocalVideo src={project.videoLink} />
@@ -44,55 +46,111 @@ const ProjectDetails = () => {
             {/* Project Details Starts */}
             <div className='col s12 l6 xl6 section-padding'>
               <h3 className='font-weight-700 uppercase'>{project.title}</h3>
-              <ul className='project-details second-font'>
-                <li>
-                  <i className='fa fa-user' />
-                  <span className='font-weight-700'> Organization </span>:
-                  <span className='font-weight-400 uppercase'>
-                    <a
-                      style={{
-                        marginLeft: "2px",
-                        textDecoration: "underline",
-                        color: "#fff",
-                      }}
-                      href={project.titleLink}
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      {project.orginization}
-                    </a>
-                  </span>
-                </li>
-                <li>
-                  <i className='fa fa-calendar-o' />
-                  <span className='font-weight-700'> Date </span>:{" "}
-                  <span className='font-weight-400 uppercase'>
-                    {project.Date}
-                  </span>
-                </li>
-                {/* <li>
+              {project.orginization !== "life" ? (
+                <>
+                  <ul className='project-details second-font'>
+                    <li>
+                      <i className='fa fa-user' />
+                      <span className='font-weight-700'> Organization </span>:
+                      <span className='font-weight-400 uppercase'>
+                        <a
+                          style={{
+                            marginLeft: "2px",
+                            textDecoration: "underline",
+                            color: "#fff",
+                          }}
+                          href={project.titleLink}
+                          target='_blank'
+                          rel='noreferrer'
+                        >
+                          {project.orginization}
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <i className='fa fa-calendar-o' />
+                      <span className='font-weight-700'> Date </span>:{" "}
+                      <span className='font-weight-400 uppercase'>
+                        {project.Date}
+                      </span>
+                    </li>
+                    {/* <li>
                 <i className='fa fa-calendar-check-o' />
                 <span className='font-weight-700'> End Date </span>:{" "}
                 <span className='font-weight-400 uppercase'>02/08/2023</span>
               </li> */}
-                <li>
-                  <i className='fa fa-cogs' />{" "}
-                  <span className='font-weight-700'>Description</span> :{" "}
-                  <span className='font-weight-400 '>
-                    {project.description}
-                  </span>
-                </li>
-              </ul>
-              <hr />
-              <a
-                href={project.link}
-                className='waves-effect waves-light btn font-weight-700'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Link
-                <i className='fa fa-external-link' />
-              </a>
+                    <li>
+                      <i className='fa fa-cogs' />{" "}
+                      <span className='font-weight-700'>Description</span> :{" "}
+                      <span className='font-weight-400 '>
+                        {project.description}
+                      </span>
+                    </li>
+                  </ul>
+                  <hr />
+                  <a
+                    href={project.link}
+                    className='waves-effect waves-light btn font-weight-700'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    Link
+                    <i className='fa fa-external-link' />
+                  </a>
+                </>
+              ) : (
+                <>
+                  <ul className='project-details second-font'>
+                    {/* <li>
+                      <i className='fa fa-user' />
+                      <span className='font-weight-700'> Organization </span>:
+                      <span className='font-weight-400 uppercase'>
+                        <a
+                          style={{
+                            marginLeft: "2px",
+                            textDecoration: "underline",
+                            color: "#fff",
+                          }}
+                          href={project.titleLink}
+                          target='_blank'
+                          rel='noreferrer'
+                        >
+                          {project.orginization}
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <i className='fa fa-calendar-o' />
+                      <span className='font-weight-700'> Date </span>:{" "}
+                      <span className='font-weight-400 uppercase'>
+                        {project.Date}
+                      </span>
+                    </li> */}
+                    {/* <li>
+                <i className='fa fa-calendar-check-o' />
+                <span className='font-weight-700'> End Date </span>:{" "}
+                <span className='font-weight-400 uppercase'>02/08/2023</span>
+              </li> */}
+                    <li>
+                      {/* <i className='fa fa-cogs' />{" "}
+                      <span className='font-weight-700'>Description</span> :{" "} */}
+                      <span className='font-weight-400 '>
+                        {project.description}
+                      </span>
+                    </li>
+                  </ul>
+                  <hr />
+                  {/* <a
+                    href={project.link}
+                    className='waves-effect waves-light btn font-weight-700'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    Link
+                    <i className='fa fa-external-link' />
+                  </a> */}
+                </>
+              )}
             </div>
             {/* Project Details Ends */}
           </div>

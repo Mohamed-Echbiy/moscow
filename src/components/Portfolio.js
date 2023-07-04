@@ -65,6 +65,7 @@ const Portfolio = () => {
                 </a>
               </div>
             ))}
+
             {/* Project Ends */}
             {/* Project Starts */}
             {/* <div className='col s12 m6 l6 xl4' data-panel='panel-2'>
