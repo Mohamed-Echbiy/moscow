@@ -55,6 +55,8 @@ const ProjectDetails = () => {
                         color: "#fff",
                       }}
                       href={project.titleLink}
+                      target='_blank'
+                      rel='noreferrer'
                     >
                       {project.orginization}
                     </a>
@@ -84,6 +86,8 @@ const ProjectDetails = () => {
               <a
                 href={project.link}
                 className='waves-effect waves-light btn font-weight-700'
+                target='_blank'
+                rel='noreferrer'
               >
                 Link
                 <i className='fa fa-external-link' />

@@ -42,12 +42,18 @@ const Portfolio = () => {
                 className='col s12 m6 l6 xl4'
                 data-panel={`panel-${index + 1}`}
               >
-                <a href='#' onClick={() => activeShowProject(index + 1)}>
+                <a
+                  style={{ width: "100%" }}
+                  href='#'
+                  onClick={() => activeShowProject(index + 1)}
+                >
                   <img
                     className='responsive-img'
                     src={
                       project?.images
                         ? project.images[0]
+                        : project.coverPhoto
+                        ? project.coverPhoto
                         : "images/projects/project-1.jpg"
                     }
                     alt='Project'
