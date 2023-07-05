@@ -4,8 +4,7 @@ import useWindowSize from "../useWindowSize";
 import SectionContainer from "./SectionContainer";
 
 const resumeDownload =
-  "https://doc-0g-3c-docstext.googleusercontent.com/export/hhg3d4r82c7inco0petrpken14/jbnt5272r5746bfekevnc9tck8/1688317490000/104882856472236798115/111332808816389709313/1IALXZFBO9ohG8RqTWMqSLvDNsge2AfBJB9KvwVV_0yE?format=docx&dat=ANh7AEyYuV5dqqQWLjju5ielTPN7mD3v3xonM_W8N3mNI4xIGhgUn1xaWaX7koq_qpoV8Jck0AQOpGYqQETgzFKU1BEGUkAGcsmCcnGbrl68RhpgeFDT3ypPDTp3VdC18Et0ugxJayjLbZU96P-HUm7LYdGX_nX-BURTvI6zWIDajuD7CYJFyuUnu12Xv4MazE98U-Bf130Ep-xsBmsEdt3GqjZLZDEXxYk16EFNH-dXJFwkNYChOKGiLYPcBJk15elRTc9ACWA2fhJWek6POZxbQ1g2_LWuqiFizexk2d76suZituIvzwiCu_pn89JakkTeOYV4mUBl2EYMFpVx1SfijSdtk2iogHR1lgrSzpD2GON_01-K1iAvjGM-L_Iyx3LNjcmK_qlWaEOI7bfWfHoSK1G2UzSMZl71rCkivDnnbyCS3OOoyeVUJyBiCwrboYFS2pvxrD7EXIbz9B49YIPElzGUBVgiTzUPBLPy-iVTJTGjhkyJEJ5EysXYxlBq4Uh8-xMVf1P_i8WJ1nl59FkRw6KE8qn2r3foFJgu5en5m5fqz-KhSN_b1Y7CyksAessgISPfHRycB_oAh6Fjw2KTPQUb6Oc72lyTZ786Y3CSYPythNgfropw2df9t3KP0XxKu_okw4XiAk1-fgsxW0yy--5jZ8jwJI7yl4ochCJpoSOu05dyn8-eRB_OYJHtl0kxhu7C-rtupsfuP4V4YCtr2zxQhnIC17KNDFTFcz6sJdIwqfF8npX4iDimRI3SopSK-TwipYZKaiuWvNwuQEFQ0_bkucrVN8-ln6UN1t1Rou2US0dfE3HF_ePdFdVUz6Euhw9bM0eANUedXGrFuwoF1o2AmAI3d7Eyctn0peQCTZe97JMNylSuvPe6I6oMqnDgw_WHzaQUc-4ujmZg3mg5dawl49W8cgj17y_juOy1YIy4CNK27ZyGHS20";
-
+  "https://www.fiverr.com/download/attachment/message/d033cf0f-e119-1634-7f7f-7f7f7f7f7f7f_c2262f10-1a8c-11ee-bf43-914e48273167/64a450f44cdcd0001106f47e/Profile.pdf?signature=92c1f90fd68a7ebd349987bd8031f7d306019e741801c4441dfb5d76a39898dc";
 const Experience = () => (
   <Fragment>
     <div className='resume-card-header'>
@@ -19,48 +18,65 @@ const Experience = () => (
       <div className='resume-card-body-container second-font'>
         {/* Single Experience Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Web Designer - </span>Envato
-          </h6>
+          <h6 className='uppercase'>Founder and CEO - Fanera</h6>
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2015 - 2023
+            <i className='fa fa-calendar-o' /> January 2020 - Present (3 years 7
+            months)
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+          <p style={{ fontSize: "12px", paddingBottom: "2px" }}>
+            Founder of Fanera, the first social network for and by football
+            fans, clubs, and brands to connect them with their football
+            community who share the passion for football.
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className='separator' />
+        <span
+          className='separator'
+          style={{ marginBottom: "10px", marginTop: "4px" }}
+        />
         {/* Single Experience Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Web Developer - </span>Google
-          </h6>
+          <h6 className='uppercase'>Sales Manager - IBM</h6>
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2011 - 2015
+            <i className='fa fa-calendar-o' /> April 2015 - March 2018 (3 years)
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+          <p style={{ fontSize: "12px", paddingBottom: "2px" }}>
+            • Directed the distribution of IBM's products to customers, and to
+            involves establishing sales areas and setting quotas and goals.
+            <br />
+            •Utilize strong business and technical acumen and sales intuition
+            for exceeding the sales objectives. ...
           </p>
         </div>
         {/* Single Experience Ends */}
-        <span className='separator' />
+        <span
+          className='separator'
+          style={{ marginBottom: "10px", marginTop: "4px" }}
+        />
         {/* Single Experience Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Community Manager - </span>Adobe
-          </h6>
+          <h6 className='uppercase'>Founder - Sabbar Organization</h6>
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2007 - 2011
+            <i className='fa fa-calendar-o' /> May 2014 - May 2016 (2 years 1
+            month)
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
+          <p style={{ fontSize: "12px", paddingBottom: "2px" }}>
+            Sabbar is a nonprofit organization that aims to help less fortunate
+            Palestinians by providing a platform to connect people with those
+            who need help through sharing videos of their stories.
           </p>
         </div>
         {/* Single Experience Ends */}
+        <a
+          href={resumeDownload}
+          style={{
+            fontSize: "14px",
+            color: "white",
+            textDecoration: "underline",
+          }}
+        >
+          see more
+        </a>
       </div>
     </div>
   </Fragment>
@@ -77,48 +93,35 @@ const Education = () => (
       <div className='resume-card-body-container second-font'>
         {/* Single Education Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Engineering Diploma - </span>Oxford University
-          </h6>
+          <h6 className='uppercase'>Kellogg Executive Education</h6>
+          <p>Master of Business Administration (MBA), Mini MBA</p>
+
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2015 - 2023
+            <i className='fa fa-calendar-o' /> 2013 - 2013
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
         </div>
         {/* Single Education Ends */}
         <span className='separator' />
         {/* Single Education Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Masters Degree - </span>Paris University
-          </h6>
+          <h6 className='uppercase'>Birzeit University</h6>
+          <p>Master, MBA</p>
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2011 - 2015
+            <i className='fa fa-calendar-o' /> February 2011 - March 2013
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
         </div>
         {/* Single Education Ends */}
         <span className='separator' />
         {/* Single Education Starts */}
         <div className='resume-content'>
-          <h6 className='uppercase'>
-            <span>Bachelor Degree - </span>Berlin Higher Institute
-          </h6>
+          <h6 className='uppercase'>Arab American University</h6>
+          <p>Bachelor's degree, Computer information Technology</p>
           <span className='date'>
-            <i className='fa fa-calendar-o' /> 2007 - 2011
+            <i className='fa fa-calendar-o' /> February 2001 - April 2005
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium orci sit amet mi ullamcorper
-          </p>
         </div>
         {/* Single Education Ends */}
+        <span className='separator' />
       </div>
     </div>
   </Fragment>
@@ -128,7 +131,7 @@ const Skills = () => (
     {/* Skills Header Title Starts */}
     <div className='resume-card-header'>
       <div className='resume-card-name'>
-        <i className='fa fa-star' /> Skills
+        <i className='fa fa-star' /> Skills & Awards
       </div>
     </div>
     {/* Skills Header Title Starts */}
@@ -137,132 +140,79 @@ const Skills = () => (
         <div className='row'>
           {/* Skills Row Starts */}
           <div className='col s6'>
-            {/* Single Skills Starts */}
+            {" "}
             <div className='resume-content'>
-              <h6 className='uppercase'>html</h6>
+              <h6 className='uppercase'>
+                Customer Relationship Management (CRM)
+              </h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
             <div className='resume-content'>
-              <h6 className='uppercase'>javascript</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-half-empty' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>css</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-half-empty' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>php</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star-o' />{" "}
-                <i className='fa fa-star-o' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>jquery</h6>
+              <h6 className='uppercase'>Entrepreneurship</h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
             <div className='resume-content'>
-              <h6 className='uppercase'>angular js</h6>
+              <h6 className='uppercase'>
+                Youth Action Net award for innovation
+              </h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star-o' />{" "}
-                <i className='fa fa-star-o' />
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
+            <div className='resume-content'>
+              <h6 className='uppercase'>Tedx Deadsea Jordan Speaker</h6>
+              <p>
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' />
+              </p>
+            </div>
           </div>
           {/* Skills Row Ends */}
           {/* Skills Row Starts */}
           <div className='col s6'>
-            {/* Single Skills Starts */}
             <div className='resume-content'>
-              <h6 className='uppercase'>wordpress</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-half-empty' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>joomla</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-half-empty' />{" "}
-                <i className='fa fa-star-o' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>magento</h6>
-              <p>
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-o' />
-              </p>
-            </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
-            <div className='resume-content'>
-              <h6 className='uppercase'>drupal</h6>
+              <h6 className='uppercase'>CEOs</h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
             <div className='resume-content'>
-              <h6 className='uppercase'>Adobe Photoshop</h6>
+              <h6 className='uppercase'>Arab Social Innovator.</h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-o' />
+                <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
-            {/* Single Skills Starts */}
             <div className='resume-content'>
-              <h6 className='uppercase'>Adobe illustrator</h6>
+              <h6 className='uppercase'>Ashoka Fellow</h6>
               <p>
                 <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
-                <i className='fa fa-star' />{" "}
-                <i className='fa fa-star-half-empty' />{" "}
-                <i className='fa fa-star-o' />
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' />
               </p>
             </div>
-            {/* Single Skills Ends */}
+            <div className='resume-content'>
+              <h6 className='uppercase'>CEO of Fanera</h6>
+              <p>
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' /> <i className='fa fa-star' />{" "}
+                <i className='fa fa-star' />
+              </p>
+            </div>
           </div>
           {/* Skills Row Ends */}
         </div>
@@ -501,7 +451,7 @@ const AboutUs = ({ dark }) => {
                     onClick={() => activeState.setActive(2)}
                   >
                     <h6 className='resume-list-item-title uppercase'>
-                      <i className='fa fa-star' /> Skills
+                      <i className='fa fa-star' /> Skills & Awards
                     </h6>
                   </div>
                 </div>
