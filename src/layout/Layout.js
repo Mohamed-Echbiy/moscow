@@ -9,37 +9,37 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Moscow - Personal Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kilany Mo - Personal Portfolio</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link
-          href="https://fonts.googleapis.com/css?family=Lato:400,700,900"
-          rel="stylesheet"
+          href='https://fonts.googleapis.com/css?family=Lato:400,700,900'
+          rel='stylesheet'
         />
 
         {/* <!-- Template CSS Files --> */}
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="css/font-awesome.min.css"
+          rel='stylesheet'
+          type='text/css'
+          href='css/font-awesome.min.css'
         />
         <link
-          rel="stylesheet"
-          type="text/css"
-          href="css/jquery.animatedheadline.css"
+          rel='stylesheet'
+          type='text/css'
+          href='css/jquery.animatedheadline.css'
         />
-        <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel='stylesheet' type='text/css' href='css/materialize.min.css' />
+        <link rel='stylesheet' type='text/css' href='css/style.css' />
         <link
-          rel="stylesheet"
-          type="text/css"
+          rel='stylesheet'
+          type='text/css'
           href={`css/skins/${color}.css`}
         />
 
-        <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+        <link rel='stylesheet' type='text/css' href='css/styleswitcher.css' />
       </Head>
       <Preloader />
       <Switcher />
-      <div className="wrapper">{children}</div>
+      <div className='wrapper'>{children}</div>
     </Fragment>
   );
 };

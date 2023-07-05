@@ -19,10 +19,10 @@ const GetInTouch = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_5uo7mgo", // service id
+          "template_xjigtoo", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "sbTD2HiXNWlmY3v2j" // public api
         )
         .then(
           (response) => {
@@ -204,6 +204,7 @@ const GetInTouch = () => {
                     className='btn font-weight-700'
                     type='submit'
                     name='send'
+                    disabled={true}
                   >
                     Send Message <i className='fa fa-send' />
                   </button>
